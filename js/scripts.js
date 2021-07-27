@@ -1,11 +1,22 @@
-/*!
-* Start Bootstrap - Resume v7.0.2 (https://startbootstrap.com/theme/resume)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
-*/
 //
 // Scripts
 // 
+
+const width  = window.innerWidth || document.documentElement.clientWidth || 
+document.body.clientWidth;
+const height = window.innerHeight|| document.documentElement.clientHeight|| 
+document.body.clientHeight;
+
+console.log(width, height);
+
+var my_image = document.getElementById("myImage");
+var my_name = document.getElementById("myName");
+
+if (width < 450){
+    my_image.style.display = "block";
+    my_image.style.width = "50px";
+    my_name.remove()
+}
 
 window.addEventListener('DOMContentLoaded', event => {
 
