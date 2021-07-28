@@ -7,7 +7,7 @@ document.body.clientWidth;
 const height = window.innerHeight|| document.documentElement.clientHeight|| 
 document.body.clientHeight;
 
-console.log(width, height);
+// console.log(width, height);
 
 var my_image = document.getElementById("myImage");
 // var my_name = document.getElementById("myName");
@@ -25,7 +25,7 @@ window.addEventListener('DOMContentLoaded', event => {
     if (sideNav) {
         new bootstrap.ScrollSpy(document.body, {
             target: '#sideNav',
-            offset: 74,
+            offset: 75,
         });
     };
 
