@@ -13,9 +13,9 @@ var my_image = document.getElementById("myImage");
 // var my_name = document.getElementById("myName");
 
 if (width < 500){
-    //my_image.style.display = "block";
+    my_image.style.display = "block";
     my_image.style.width = "50px";
-    // my_name.remove()
+
 }
 
 window.addEventListener('DOMContentLoaded', event => {
