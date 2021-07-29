@@ -608,6 +608,7 @@ progress {
   padding-left: 0;
   margin-right: auto;
   margin-left: auto;
+  text-align: center;
 }
 
 @media (min-width: 576px) {
