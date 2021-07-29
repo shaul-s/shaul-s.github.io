@@ -20,7 +20,7 @@ if (width < 500){
 
 window.addEventListener('DOMContentLoaded', event => {
     // add map layout
-    var map = L.map('map').setView([32.79297405640582, 34.98684121465365], 15);
+    var map = L.map('map').setView([32.792974, 34.986841], 15);
 
     L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', 
                 {maxZoom: 25,attribution: 'Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'}).addTo(map);
