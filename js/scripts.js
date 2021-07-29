@@ -19,7 +19,25 @@ if (width < 500){
 }
 
 window.addEventListener('DOMContentLoaded', event => {
+    // add map layout
+	var map = L.map('map').setView([32.79297405640582, 34.98684121465365], 15);
 
+	L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		
+		maxZoom: 25,
+		attribution: 'Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+	}).addTo(map);
+
+    // Activate Bootstrap scrollspy on the main nav element
+    const sideNav = document.body.querySelector('#sideNav');
+    if (sideNav) {
+        new bootstrap.ScrollSpy(document.body, {
+            target: '#sideNav',
+            offset: 74,
+        });
+    };
+    
+    
     // Activate Bootstrap scrollspy on the main nav element
     const sideNav = document.body.querySelector('#sideNav');
     if (sideNav) {
