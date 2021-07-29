@@ -20,6 +20,8 @@
 .leaflet-container {
 	overflow: hidden;
 	-ms-touch-action: none;
+	margin-left: auto;
+	margin-right: auto;
 	}
 .leaflet-tile,
 .leaflet-marker-icon,
