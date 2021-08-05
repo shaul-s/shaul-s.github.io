@@ -10951,6 +10951,13 @@ p.lead {
 	margin-left: 1.75rem;
   }
 }
+
+@media(max-width: 768px) {
+	.img-profile {
+		width: 50px;
+	}
+}
+
 .social-icons .social-icon {
   display: inline-flex;
   align-items: center;
