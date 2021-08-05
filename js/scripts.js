@@ -2,22 +2,6 @@
 // Scripts
 // 
 
-const width  = window.innerWidth || document.documentElement.clientWidth || 
-document.body.clientWidth;
-const height = window.innerHeight|| document.documentElement.clientHeight|| 
-document.body.clientHeight;
-
-// console.log(width, height);
-
-var my_image = document.getElementById("myImage");
-// var my_name = document.getElementById("myName");
-
-if (width < 500){
-    my_image.style.display = "block";
-    my_image.style.width = "50px";
-
-}
-
 window.addEventListener('DOMContentLoaded', event => {
     // add map layout
     var map = L.map('map').setView([32.792974, 34.986841], 15);
