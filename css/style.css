@@ -11,12 +11,9 @@ body{
 
 #globe {
     position: relative;
-    margin-top: auto;
-    margin-bottom: auto;   
-    margin-left:auto;
-    margin-right:auto;
-    height: 50vh; 
-    width: 50vh;
+    margin: auto;
+/*     height: 50vh; 
+    width: 50vh; */
 }
 
 .context {
