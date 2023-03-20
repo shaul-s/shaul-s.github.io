@@ -14,8 +14,8 @@ body{
     margin-bottom: auto;   
     margin-left:auto;
     margin-right:auto;
-    height: 50%; 
-    width: 50%;
+    height: 50vh; 
+    width: 50vh;
 }
 
 .context {
